@@ -26,7 +26,8 @@ const questions = [
     },];
 
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, function (err) {
+    const generated = generator(data);
+    fs.writeFile(fileName, generated, function (err) {
         if (err) {
             return console.log(err);
         }
