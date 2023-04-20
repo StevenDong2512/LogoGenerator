@@ -1,6 +1,6 @@
-const fs = require ('fs');
+const fs = require('fs');
 const inquirer = require('inquirer');
-const generator = require ('./lib/generate')
+const generator = require('./lib/generate')
 
 const questions = [
     {
@@ -23,5 +23,22 @@ const questions = [
         type: "input",
         name: "text-color",
         message: "Please enter a colour keyword or a hexadecimal number for text colour.",
-    },
-]
+    },];
+
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, function (err) {
+        if (err) {
+            return console.log(err);
+        }
+        console.log("Your logo has been generated.");
+    })
+};
+
+function init() {
+    inquirer.promote(questions)
+        .then(function (data) {
+            writeToFile(logo.svg, data);
+        })
+};
+
+init()
