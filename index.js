@@ -37,9 +37,9 @@ function writeToFile(fileName, data) {
 }
 
 function init() {
-  inquirer.prompt(questions).then(function (response) {
-    console.log(response);
-    writeToFile("logo.svg", generateLogo(response));
+  inquirer.prompt(questions).then(function (data) {
+    console.log(data);
+    writeToFile("logo.svg", generateLogo(data));
   });
 }
 
