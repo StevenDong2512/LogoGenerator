@@ -2,6 +2,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const generateLogo = require("./lib/generate");
 
+
 const questions = [
   {
     type: "list",
@@ -44,3 +45,4 @@ function init() {
 }
 
 init();
+
