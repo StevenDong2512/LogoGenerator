@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateLogo = require("./lib/generator");
+const generateLogo = require("./lib/generate");
+
 
 const questions = [
   {
