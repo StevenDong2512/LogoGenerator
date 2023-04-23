@@ -17,10 +17,7 @@ The porpuse of this project is to generate a simple logo with up to three letter
 
 ## Usage
 
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+[Demo Video](https://drive.google.com/file/d/1Wbpmt4eAk0evLLQtvsxzjz9V5mHwHuYZ/view)
 
 ## Credits
 
