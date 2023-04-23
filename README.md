@@ -17,9 +17,12 @@ The porpuse of this project is to generate a simple logo with up to three letter
 
 ## Usage
 
-!Questions from terminal]()
-![alt text](assets/images/screenshot.png)
-![alt text](assets/images/screenshot.png)
+![Questions from terminal](./assets/question.png)
+
+![jest test passed](./assets/test.png)
+
+![logo generated](./assets/logoPreview.png)
+
 
 [Demo Video](https://drive.google.com/file/d/1Wbpmt4eAk0evLLQtvsxzjz9V5mHwHuYZ/view)
 
